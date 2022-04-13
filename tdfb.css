@@ -1,0 +1,221 @@
+#g1 {
+    width: 66%;
+    height: 100%;
+    background: rgb(180, 175, 175);
+    margin: 50px auto 0 auto;
+    margin-bottom: 50px;
+}
+
+div.g2 {
+    width: 100%;
+    display: flex;
+
+}
+
+div.g2 img {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div.g2 p.j1 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+div.g3 {
+    display: block;
+}
+
+p.j2 {
+    margin-left: -345px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(119, 106, 48);
+}
+
+p.j3 {
+    margin-left: 63px;
+    margin-top: 20px;
+    color: rgb(58, 106, 148);
+}
+
+p.j4 {
+    margin-top: 10px;
+    margin-left: -290px;
+}
+
+p.j4 a {
+    text-decoration: none;
+}
+
+hr.j5 {
+    margin-left: 70px;
+    color: rgb(119, 106, 48);
+    margin-top: 10px;
+    width: 80%;
+}
+
+div.j6 {
+    margin-top: 10px;
+}
+
+div.j6 select {
+    /* width: 50%; */
+    margin-left: 50px;
+    /* height: 20px; */
+    line-height: 80px;
+}
+
+div.j6.j7 {
+    display: block;
+    float: left;
+    line-height: 21px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    text-align: left;
+    width: 75px;
+    margin-right: 0px;
+}
+
+select.j8 {
+    width: 60%;
+    height: 35px;
+}
+
+.j7 {
+    margin-left: 40px;
+}
+
+.j10 {
+    margin-left: 85px;
+    /* height: 20px; */
+    line-height: 80px;
+    float: left;
+    line-height: 21px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    text-align: left;
+    width: 75px;
+    margin-right: 0px;
+}
+
+.j12 {
+    width: 17%;
+    height: 35px;
+    margin-left: -30px;
+}
+
+.j9 {
+    margin-top: 10px;
+}
+
+.j11 {
+    margin-left: 12px;
+    height: 40px;
+    line-height: 37px;
+    background: yellow;
+    padding: 0 40px;
+}
+
+div.l1 {
+    margin-top: 10px;
+}
+
+div.l1 img {
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+}
+
+hr.l {
+    margin-top: 70px;
+    color: black;
+}
+
+hr.k1 {
+    margin-top: 100px;
+}
+.l3{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.l2 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.l4{
+    margin-left: -190px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(119, 106, 48);
+}
+.l5{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: rgb(66, 126, 179);
+}
+.l6{
+    margin-top: 10px;
+    margin-left: -130px;
+}
+.l6 a{
+    text-decoration: none;
+}
+.l7{
+    margin-left: 50px;
+    color: rgb(119, 106, 48);
+    margin-top: 10px;
+    width: 100%;
+}
+.j16{
+    margin-left: 15px;
+    /* height: 20px; */
+    line-height: 80px;
+    float: left;
+    line-height: 21px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    text-align: left;
+    width: 75px;
+    margin-right: 0px;
+}
+.j17{
+    margin-left:-5px;
+}
+.j27{
+    margin-left:-10px;
+}
+.j123{
+    width: 10%;
+    height: 35px;
+    margin-left: 40px;
+}
+.m1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 50px;
+
+}
+img:hover{
+    -webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+	-moz-animation: spin 2s linear infinite;
+	-o-animation: spin 2s linear infinite;
+	-ms-animation: spin 2s linear infinite;
+}
+   
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }   /*Để quay 1 vòng khi hover*/
+  }
